@@ -4,6 +4,8 @@ cmake_minimum_required(VERSION 3.10)
 
  set(CMAKE_CXX_STANDARD 11)
 
+ set(CMAKE_CXX_STANDARD 14)
+
  add_library(Calculator STATIC src/Calculator.cpp)
 
  target_include_directories(Calculator PUBLIC include)
